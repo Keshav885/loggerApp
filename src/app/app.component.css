@@ -1,0 +1,113 @@
+.my-container{
+  margin: 10px !important;
+  overflow: hidden;
+  min-height: 98vh;
+  background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+}
+
+.text-center-blue{
+  text-align: center;
+  color: #204B97;
+}
+
+.img-logo{
+  border-bottom: 1px solid darkblue;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.input-block{
+  display: block !important;
+  width: 90% !important;
+  margin: 0 auto;
+}
+
+.border-radius-10{
+  border-radius: 10px !important;
+}
+
+.card-title{
+  font-size: 30px !important;
+  color: #db2a26 !important;
+  text-align: center;
+}
+
+.card-center{
+  width: 30%;
+  margin: 5% auto;
+  -webkit-box-shadow: 2px 2px 63px -9px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 2px 63px -9px rgba(0,0,0,0.75);
+  box-shadow: 2px 2px 63px -9px rgba(0,0,0,0.75);
+}
+
+.color-change-2x {
+  -webkit-animation: color-change-2x 4s linear infinite alternate both;
+  animation: color-change-2x 4s linear infinite alternate both;
+}
+
+
+
+
+@-webkit-keyframes color-change-2x {
+  0% {
+    background: #89f7fe;
+  }
+  100% {
+    background: #66a6ff;
+  }
+}
+@keyframes color-change-2x {
+  0% {
+    background: #89f7fe;
+  }
+  100% {
+    background: #66a6ff;
+  }
+}
+
+
+.slide-in-elliptic-top-fwd {
+  -webkit-animation: slide-in-elliptic-top-fwd 1s ease-in-out both;
+  animation: slide-in-elliptic-top-fwd 1s ease-in-out both;
+}
+
+@-webkit-keyframes slide-in-elliptic-top-fwd {
+  0% {
+    -webkit-transform: translateY(-600px) rotateX(-30deg) scale(0);
+    transform: translateY(-600px) rotateX(-30deg) scale(0);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) rotateX(0) scale(1);
+    transform: translateY(0) rotateX(0) scale(1);
+    -webkit-transform-origin: 50% 1400px;
+    transform-origin: 50% 1400px;
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-elliptic-top-fwd {
+  0% {
+    -webkit-transform: translateY(-600px) rotateX(-30deg) scale(0);
+    transform: translateY(-600px) rotateX(-30deg) scale(0);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) rotateX(0) scale(1);
+    transform: translateY(0) rotateX(0) scale(1);
+    -webkit-transform-origin: 50% 1400px;
+    transform-origin: 50% 1400px;
+    opacity: 1;
+  }
+}
+
+
+
+
+
+
